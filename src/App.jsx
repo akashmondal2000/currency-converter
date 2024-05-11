@@ -1,11 +1,11 @@
 import "./App.css";
 
-function App() {
+const App = () =>{
 
   return (
-    <>
-      <h1> Currency Converter </h1>
-    </>
+    <div>
+      <h1> Currency-Converter </h1>
+    </div>
   );
 }
 
