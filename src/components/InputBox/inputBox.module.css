@@ -1,0 +1,6 @@
+.maindiv{
+    @apply text-[30px]
+}
+.InputBox{
+    @apply border-purple-800 
+}

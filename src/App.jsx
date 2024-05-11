@@ -1,10 +1,12 @@
-import "./App.css";
+import { InputBox } from "./components";
+
 
 const App = () =>{
 
   return (
-    <div>
-      <h1> Currency-Converter </h1>
+    <div> 
+      <InputBox/>
+      <InputBox/>
     </div>
   );
 }
