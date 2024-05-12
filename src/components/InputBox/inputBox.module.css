@@ -1,6 +1,3 @@
-.maindiv{
-    @apply text-[30px]
-}
-.InputBox{
-    @apply border-purple-800 
+.InputBox_Wrapper{
+    @apply w-56 h-40 bg-slate-300 rounded-xl; 
 }

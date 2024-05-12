@@ -1,0 +1,28 @@
+.main_container {
+  @apply w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat;
+  @apply bg-[url('https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')];
+}
+
+.container_wrapper {
+  @apply w-full;
+}
+.form_wrapper {
+  @apply w-full max-w-md mx-auto border border-gray-600 rounded-lg p-5 backdrop-blur-sm bg-white/30;
+}
+
+.first_input_wrapper {
+  @apply w-full mb-1;
+}
+.swapBtn_wrapper {
+  @apply relative w-full h-0.5;
+}
+.swap_btn {
+  @apply absolute left-1/2 -translate-x-1/2 -translate-y-1/2 border-2 border-white rounded-md bg-blue-600 text-white px-2 py-0.5;
+}
+
+.second_input_wrapper {
+  @apply w-full mt-1 mb-4;
+}
+.convert_btn {
+  @apply w-full bg-blue-600 text-white px-4 py-3 rounded-lg;
+}
