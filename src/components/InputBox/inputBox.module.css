@@ -1,3 +1,24 @@
-.InputBox_Wrapper{
-    @apply w-56 h-40 bg-slate-300 rounded-xl; 
+.inputBox_container{
+    @apply bg-white p-3 rounded-lg text-sm flex ;
+}
+.input_wrapper{
+    @apply w-1/2;
+}
+
+
+.input_label{
+    @apply text-black/40 mb-2 inline-block;
+}
+
+.inputBox{
+   @apply outline-none w-full bg-transparent py-1.5;
+}
+.inputBox_wrapper_select{
+    @apply w-1/2 flex flex-wrap justify-end text-right;
+}
+.inputBox_wrapper_select_text{
+    @apply text-black/40 mb-2 w-full;
+}
+.inputBox_select{
+    @apply rounded-lg px-1 py-1 bg-gray-100 cursor-pointer outline-none
 }
