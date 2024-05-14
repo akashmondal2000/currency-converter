@@ -4,11 +4,11 @@ const useCurrencyInfo = (currency) => {
   const [data, setData] = useState({});
 
   useEffect(() => {
-    fetch(`https://open.er-api.com/v6/latest/inr`)
+    fetch(`https://open.er-api.com/v6/latest`)
       .then((res)=>res.json())
       .then((res)=>setData(res.rates))
-      console.log(data);
   }, [currency]);
+  console.log("currency data=>",data);
 
   return data;
 };
